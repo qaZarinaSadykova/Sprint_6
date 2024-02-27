@@ -15,8 +15,3 @@ def driver():
     yield driver
     # Закрываем драйвер после выполнения каждого метода
     driver.quit()
-
-
-@pytest.fixture
-def accept_cookie(driver):
-    driver.find_element(*MainPageLocators.COOKIE_ACCEPT).click()

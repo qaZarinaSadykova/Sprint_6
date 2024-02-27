@@ -41,7 +41,6 @@ from selenium.webdriver.common.by import By
 # conftest 
 from selenium import webdriver
 import pytest
-from test_page_object.locators.main_page_locators import MainPageLocators
 
 # data
 from test_page_object.locators.main_page_locators import MainPageLocators
